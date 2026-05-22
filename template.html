@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================
+       PAGE SEO — required on every page (unique title & description)
+       ============================================================ -->
+  <title>Page Title | St Thomas Shore Excursions</title>
+  <meta name="description" content="Write a unique meta description for this page (150–160 characters)." />
+  <link rel="canonical" href="https://www.stthomasshoreexcursions.com/page-slug.html" />
+  <!-- Optional: <link rel="preload" as="image" href="images/your-hero.jpg" fetchpriority="high" /> -->
+  <!-- /PAGE SEO -->
+
+  <!-- Shared assets — do not remove -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/tailwind-config.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body
+  class="bg-white text-gray-800 antialiased"
+  data-page="excursions"
+  data-base=""
+  data-hero="partials/hero-inner.html"
+  data-content="content/page-starter.html"
+>
+
+  <!-- Layout slots (loaded by js/site.js) -->
+  <div id="site-nav"></div>
+  <div id="page-hero"></div>
+  <main id="page-content"></main>
+  <div id="site-footer"></div>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
+
+<!--
+  NEW PAGE CHECKLIST
+  ------------------
+  1. Copy this file → your-page.html
+  2. Update PAGE SEO (title, description, canonical)
+  3. Set data-page to match nav: home | excursions | beaches | snorkeling | private | port
+  4. Choose hero:
+       - partials/hero-home.html (homepage only)
+       - partials/hero-inner.html (edit copy & background image inside partial, or duplicate it)
+       - omit data-hero attribute for no hero
+  5. Point data-content to your content file in /content/
+  6. Build sections in /content/your-page.html (copy blocks from content/home.html)
+  7. Optionally append partials/cta-default.html at the end of your content file
+  8. Preview with a local server: python3 -m http.server
+
+  SHARED FILES (edit once, updates all pages)
+  -----------------------------------------
+  partials/nav.html      Navigation
+  partials/footer.html   Footer
+  css/site.css           Colours, buttons, hero, cards
+  js/tailwind-config.js  Tailwind theme (ocean, teal, sand, fonts)
+-->
