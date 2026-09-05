@@ -27,7 +27,7 @@ tailwind.config = {
       },
       fontFamily: {
         display: ['Playfair Display', 'Georgia', 'serif'],
-        body:    ['Inter', 'system-ui', 'sans-serif'],
+        body:    ['Source Sans 3', 'system-ui', 'sans-serif'],
       },
     }
   }

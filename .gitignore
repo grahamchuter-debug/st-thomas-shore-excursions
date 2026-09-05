@@ -1,23 +1,8 @@
-# macOS
+node_modules/
+.wrangler/
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Editor / IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Environment / secrets
-.env
-.env.*
-!.env.example
-
-# Logs
 *.log
-npm-debug.log*
-
-# Dependencies (if added later)
+dist/
+.venv/
+images/_quarantine/
 node_modules/

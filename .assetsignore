@@ -1,0 +1,15 @@
+node_modules
+.git
+.wrangler
+scripts
+docs
+package.json
+package-lock.json
+.gitignore
+*.md
+content
+partials
+worker.js
+wrangler.jsonc
+.DS_Store
+_quarantine

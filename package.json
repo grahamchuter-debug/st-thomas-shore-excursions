@@ -1,0 +1,15 @@
+{
+  "name": "st-thomas-shore-excursions",
+  "private": true,
+  "version": "2.0.0",
+  "scripts": {
+    "build": "node scripts/build-pages.mjs",
+    "qa": "node scripts/qa-site.mjs",
+    "qa:images": "node scripts/qa-images.mjs",
+    "qa:contamination": "node scripts/qa-contamination.mjs",
+    "deploy": "npm run build && npx wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.129.0"
+  }
+}
